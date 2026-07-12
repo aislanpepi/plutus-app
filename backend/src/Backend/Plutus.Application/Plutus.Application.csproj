@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\IspERP.Communication\Plutus.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\IspERP.Exception\Plutus.Exception.csproj" />
+    <ProjectReference Include="..\IspERP.Domain\Plutus.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

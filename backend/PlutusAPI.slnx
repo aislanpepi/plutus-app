@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Backend/">
+    <Project Path="src/Backend/IspERP.API/Plutus.API.csproj" />
+    <Project Path="src/Backend/IspERP.Application/Plutus.Application.csproj" Id="66408166-c442-406b-a68b-6b34c7260709" />
+    <Project Path="src/Backend/IspERP.Domain/Plutus.Domain.csproj" Id="1263f8b2-475a-4262-81e0-6c5554c47ae4" />
+    <Project Path="src/Backend/IspERP.Infrastructure/Plutus.Infrastructure.csproj" Id="d265e911-f939-4dc6-9cd9-289f20740727" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/IspERP.Communication/Plutus.Communication.csproj" Id="a8190c4a-99cf-47f0-8639-b03899e81a6c" />
+    <Project Path="src/Shared/IspERP.Exception/Plutus.Exception.csproj" Id="7296e8aa-6149-4628-a0f8-7e2ef80fad8e" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\IspERP.Communication\Plutus.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\IspERP.Exception\Plutus.Exception.csproj" />
+    <ProjectReference Include="..\IspERP.Application\Plutus.Application.csproj" />
+    <ProjectReference Include="..\IspERP.Infrastructure\Plutus.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

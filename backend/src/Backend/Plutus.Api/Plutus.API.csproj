@@ -16,10 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\IspERP.Communication\Plutus.Communication.csproj" />
-    <ProjectReference Include="..\..\Shared\IspERP.Exception\Plutus.Exception.csproj" />
-    <ProjectReference Include="..\IspERP.Application\Plutus.Application.csproj" />
-    <ProjectReference Include="..\IspERP.Infrastructure\Plutus.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Shared\Plutus.Communication\Plutus.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\Plutus.Exception\Plutus.Exception.csproj" />
+    <ProjectReference Include="..\Plutus.Application\Plutus.Application.csproj" />
+    <ProjectReference Include="..\Plutus.Infrastructure\Plutus.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

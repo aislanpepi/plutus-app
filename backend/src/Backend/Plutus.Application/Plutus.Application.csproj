@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\IspERP.Communication\Plutus.Communication.csproj" />
-    <ProjectReference Include="..\..\Shared\IspERP.Exception\Plutus.Exception.csproj" />
-    <ProjectReference Include="..\IspERP.Domain\Plutus.Domain.csproj" />
+    <ProjectReference Include="..\..\Shared\Plutus.Communication\Plutus.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\Plutus.Exception\Plutus.Exception.csproj" />
+    <ProjectReference Include="..\Plutus.Domain\Plutus.Domain.csproj" />
   </ItemGroup>
 
 </Project>

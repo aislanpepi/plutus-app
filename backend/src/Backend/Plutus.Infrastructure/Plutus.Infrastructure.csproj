@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IspERP.Domain\Plutus.Domain.csproj" />
+    <ProjectReference Include="..\Plutus.Domain\Plutus.Domain.csproj" />
   </ItemGroup>
 
 </Project>
